@@ -1,0 +1,6 @@
+.aside {
+    background: #fef9e7;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}

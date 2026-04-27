@@ -1,0 +1,21 @@
+.head {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 60px;
+    background: #2c3e50;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    z-index: 100;
+}
+.head-nav {
+    display: flex;
+    gap: 30px;
+}
+.head-nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+.head-nav a:hover { color: #3498db; }
